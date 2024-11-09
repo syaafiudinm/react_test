@@ -1,8 +1,8 @@
 const Button = (props) => {
-  const { children = "...", classname = "bg-black" } = props;
+  const { children = "...", className = "bg-black" } = props;
   return (
     <button
-      className={`h-10 px-6 font-semibold rounded-md ${classname} text-white`}
+      className={`h-10 px-6 font-semibold rounded-md ${className} text-white`}
       type="submit"
     >
       {children}
